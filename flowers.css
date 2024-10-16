@@ -146,6 +146,11 @@ font-style: normal;
 color: black
 }
 
+main p ul li {
+    color: #6b705c;
+    margin: 0 0 .3rem 0;
+}
+
 /*footer stuff here*/
 
 footer {
