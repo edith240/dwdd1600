@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Los Milagros Flower Farm</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="Local flower farm where a communtiy can come together and pick flowers">
+   <meta name="author" content="Edith Cruz">
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="https://use.typekit.net/idh1mwq.css">
+   <link rel="stylesheet" href="https://use.typekit.net/idh1mwq.css">
+   <link rel="stylesheet" href="flowers.css">
+</head>
+
+<body>
+<!--this is the start of the header section-->
+    <header>
+        <h1> Los Milagros Flower Farm</h1>
+        <p>Pick, Explore, and Experience Nature's Beauty</p>
+    </header>
+
+<!--this is the start of the navigation system-->
+    <nav>
+        <ul>
+            <li><a href="index.html">About Us</a></li>
+            <li class="active"><a href="reservation.html">Reservations</a></li>
+            <li><a href="collection.html">Our Collection</a> </li>
+        </ul>
+    </nav>
+
+<!--this is the start of the main section-->
+    <main>
+        <h1>Reservations</h1>
+        <p>At Los Milagros Flower Farm, we invite you to embark on a delightful journey through our <a href="https://www.epicgardening.com/types-of-flowers/" target="_blank" >vibrant fields of bloom</a>. Whether you're here to pick your own flowers, join a guided farm tour, or celebrate a special occasion, reserving your spot is quick and easy. Simply select your experience, choose a date and time, and let us help you create lasting memories surrounded by natures beauty. Book your visit today and immerse yourself in the colorful wonders of our flower farm!
+        <form method="get" class="myform" action="thankyou.html">
+
+        <h2>How to Reserve Your Visit to Los Milagros Flower Farm:</h2>
+        
+        <fieldset>
+            <legend><b>Customer Information</b></legend>
+            <label>First Name*<input type="text" name="first_name" required></label>
+            <label>Last Name* <input type="text" name="last name" required></label>
+            <label>Cell Number*<input type="tel" name="phone" placeholder="801-555-1212" required></label>
+        </fieldset>
+        <fieldset>
+            <legend><b>Select Your Experience</b></legend> 
+            <label><input type="checkbox" name="u-pick" value="u-pick">Pick Your Own Flowers</label>
+            <label><input type="checkbox" name="tour" value="tour">Farm Tour</label>
+            <label><input type="checkbox" name="events" value="events">Private Events or Photoshoots</label> 
+            <label><input type="checkbox" name="class" value="class">Workshops & Classes</label> 
+        </fieldset> 
+        <fieldset>
+            <legend><b>Choose a Date and Time</b></legend>
+            <select name="time">
+                <option value="none">Please Select</option>
+                <option value="date">Monday, July 29, from 6:30-9:00 PM</option>
+                <option value="date">Saturday, August 10, from 7-9 PM</option>
+                <option value="date">Monday, September 2, from 6-8</option>
+                <option value="date">Monday, September 9, from 6-8</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend><b>Select Group Size</b></legend>
+            <label><input type="radio" name="method" value="size">1-2</label>
+            <label><input type="radio" name="method" value="size">3-5</label>
+            <label><input type="radio" name="method" value="size">6-10</label> 
+            <label><input type="radio" name="method" value="size">10-12</label> 
+        </fieldset>
+        <label>Comments
+            <textarea name="comments"></textarea>
+        </label>
+        <input type="submit" value="Submit">
+    </form>
+          
+    </main>
+
+    <!--This is the start of the footer section.-->
+<footer>
+    <p>&copy; 2024  |   Edith Cruz  &bull; <a href="mailto:email@gmail.com">Email Me</a> </p>
+    </footer>
+    </body>
+    
+    </html>
